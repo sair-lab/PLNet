@@ -113,10 +113,10 @@ If you find our work useful in your research, please consider citing:
 This code builds on HAWP and SuperPoint. Please consider citing:
 ```
 @article{HAWP-journal,
-title = "Holistically-Attracted Wireframe Parsing: From Supervised to Self-Supervised Learning",
-author = "Nan Xue and Tianfu Wu and Song Bai and Fu-Dong Wang and Gui-Song Xia and Liangpei Zhang and Philip H.S. Torr
-journal = "IEEE Trans. on Pattern Analysis and Machine Intelligence (PAMI)",
-year = {2023}
+  title = "Holistically-Attracted Wireframe Parsing: From Supervised to Self-Supervised Learning",
+  author = "Nan Xue and Tianfu Wu and Song Bai and Fu-Dong Wang and Gui-Song Xia and Liangpei Zhang and Philip H.S. Torr
+  journal = "IEEE Trans. on Pattern Analysis and Machine Intelligence (PAMI)",
+  year = {2023}
 }
 
 @inproceedings{detone2018superpoint,
