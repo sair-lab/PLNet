@@ -1,8 +1,6 @@
 # PLNet
 
-<p align="middle">
-  <img src="docs/figures/plnet/plnet.png" width="600" />
-</p>
+
 
 
 This is the official implementation of PLNet, which is the feature detector of our [AirSLAM](https://github.com/sair-lab/AirSLAM). PLNet is a convolutional neural network (CNN) designed to simultaneously detect keypoints and structural lines. It leverages a shared backbone and specialized headers for keypoint and line detection. The shared backbone design makles PLNet highly efficient.
@@ -25,7 +23,11 @@ This is the official implementation of PLNet, which is the feature detector of o
 <p> -->
 
 <p align="middle">
-  <img src="docs/figures/plnet/uma_feature.png" width="600" />
+  <img src="docs/figures/plnet/plnet.png" width="800" />
+</p>
+
+<p align="middle">
+  <img src="docs/figures/plnet/uma_feature.png" width="800" />
 </p>
    
 ## Data Downloading
