@@ -1,32 +1,14 @@
 # PLNet
 
-<p align="middle">
-  <img src="docs/figures/plnet/plnet.png" width="600" />
-</p>
-
-
 This is the official implementation of PLNet, which is the feature detector of our [AirSLAM](https://github.com/sair-lab/AirSLAM). PLNet is a convolutional neural network (CNN) designed to simultaneously detect keypoints and structural lines. It leverages a shared backbone and specialized headers for keypoint and line detection. The shared backbone design makles PLNet highly efficient.
 
-
-<!-- <p align="center">
- <img src="docs/figures/v3-wireframe/00037187.png" width="30%">
- <img src="docs/figures/v3-wireframe/00051510.png" width="30%">
- <img src="docs/figures/v3-wireframe/00074259.png" width="30%">
-</p>
-<p align="center">
- <img src="docs/figures/v3-BSDS/37073.png" width="30%">
- <img src="docs/figures/v3-BSDS/42049.png" width="30%">
- <img src="docs/figures/v3-BSDS/85048.png" width="30%">
-</p>
-<p align="center">
- <img src="docs/figures/v3-CrowdAI/000000000190.png" width="30%">
- <img src="docs/figures/v3-CrowdAI/000000000210.png" width="30%">
- <img src="docs/figures/v3-CrowdAI/000000000230.png" width="30%">
-<p> -->
-
 <p align="middle">
-  <img src="docs/figures/plnet/uma_feature.png" width="600" />
+  <img src="docs/figures/plnet/plnet.png" width="700" />
 </p>
+
+<!-- <p align="middle">
+  <img src="docs/figures/plnet/uma_feature.png" width="800" />
+</p> -->
    
 ## Data Downloading
 - The training and testing data (including [Wireframe dataset](https://github.com/huangkuns/wireframe) and [YorkUrban dataset](http://www.elderlab.yorku.ca/resources/york-urban-line-segment-database-information/)) can be downloaded via [Google Drive](https://drive.google.com/file/d/134L-u9pgGtnzw0auPv8ykHqMjjZ2claO/view?usp=sharing). *Many thanks to authors of these two excellent datasets!* 
@@ -111,10 +93,10 @@ If you find our work useful in your research, please consider citing:
 This code builds on HAWP and SuperPoint. Please consider citing:
 ```
 @article{HAWP-journal,
-title = "Holistically-Attracted Wireframe Parsing: From Supervised to Self-Supervised Learning",
-author = "Nan Xue and Tianfu Wu and Song Bai and Fu-Dong Wang and Gui-Song Xia and Liangpei Zhang and Philip H.S. Torr
-journal = "IEEE Trans. on Pattern Analysis and Machine Intelligence (PAMI)",
-year = {2023}
+  title = "Holistically-Attracted Wireframe Parsing: From Supervised to Self-Supervised Learning",
+  author = "Nan Xue and Tianfu Wu and Song Bai and Fu-Dong Wang and Gui-Song Xia and Liangpei Zhang and Philip H.S. Torr
+  journal = "IEEE Trans. on Pattern Analysis and Machine Intelligence (PAMI)",
+  year = {2023}
 }
 
 @inproceedings{detone2018superpoint,
