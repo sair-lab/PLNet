@@ -1,0 +1,11 @@
+outputs/*
+**/*.DS_Store
+parsing/data/wireframe/images/*
+.vscode/*
+data/*
+data
+
+**/*.pyc
+**/*.so
+data-ssl/**/*
+exp-ssl/**/*
