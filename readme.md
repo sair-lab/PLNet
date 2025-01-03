@@ -23,12 +23,12 @@ This is the official implementation of PLNet, which is the feature detector of o
 <p> -->
 
 <p align="middle">
-  <img src="docs/figures/plnet/plnet.png" width="800" />
+  <img src="docs/figures/plnet/plnet.png" width="700" />
 </p>
 
-<p align="middle">
+<!-- <p align="middle">
   <img src="docs/figures/plnet/uma_feature.png" width="800" />
-</p>
+</p> -->
    
 ## Data Downloading
 - The training and testing data (including [Wireframe dataset](https://github.com/huangkuns/wireframe) and [YorkUrban dataset](http://www.elderlab.yorku.ca/resources/york-urban-line-segment-database-information/)) can be downloaded via [Google Drive](https://drive.google.com/file/d/134L-u9pgGtnzw0auPv8ykHqMjjZ2claO/view?usp=sharing). *Many thanks to authors of these two excellent datasets!* 
