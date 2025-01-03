@@ -413,13 +413,11 @@ class WireframeDetector(nn.Module):
 
         grid = torch.stack(torch.meshgrid(torch.arange(lines_batch.shape[2],device=device),torch.arange(lines_batch.shape[3],device=device),indexing='xy'),dim=-1).unsqueeze(0).repeat(2*self.use_residual+1,1,1,1).reshape(-1,2)
         
-        # # 可视化多个特征图
         # if self.train_step % 100 == 0:
         #     import os
         #     save_root = "/media/code/ubuntu_files/tmp/hawp/heatmap_ours"
         #     fig_name = str(self.train_step) + ".jpg"
         #     fig_path = os.path.join(save_root, fig_name)
-        #     # 设置子图的行数和列数
         #     num_rows = 2
         #     num_cols = 3
 
@@ -427,8 +425,8 @@ class WireframeDetector(nn.Module):
         #     for i in range(num_rows):
         #         for j in range(num_cols):
         #             index = i * num_cols + j
-        #             heatmap = jloc_pred[index, 0].cpu().detach().numpy()  # 获取特征图
-        #             axes[i, j].imshow(heatmap, cmap='gray')  # 使用合适的 colormap
+        #             heatmap = jloc_pred[index, 0].cpu().detach().numpy()  
+        #             axes[i, j].imshow(heatmap, cmap='gray')  
         #             axes[i, j].set_title(f'Feature Map {index+1}')
         #             axes[i, j].axis('off')
 

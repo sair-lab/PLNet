@@ -148,8 +148,7 @@ class SuperPoint(nn.Module):
             c5, self.config['descriptor_dim'],
             kernel_size=1, stride=1, padding=0)
 
-        # path = Path(__file__).parent / 'weights/superpoint_v1.pth'
-        path = "/media/code/ubuntu_files/public_projects/SuperGluePretrainedNetwork/models/weights/superpoint_v1.pth"
+        path = Path(__file__).parent.parent / 'point_model/point_model.pth'
         self.load_state_dict(torch.load(str(path)))
 
         mk = self.config['max_keypoints']
@@ -173,10 +172,6 @@ class SuperPoint(nn.Module):
         x = self.relu(self.conv3a(x))
         x = self.relu(self.conv3b(x))
         features.append(x)                  # [B, 128, H/4, W/4]
-
-        # return {
-        #     'features': features,
-        # }
 
         x = self.pool(x)
         x = self.relu(self.conv4a(x))
